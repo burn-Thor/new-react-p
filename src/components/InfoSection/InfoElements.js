@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const InfoContainer = styled.div `
     color: #fff;
-    background: ${({lightBg}) => (lightBg ? '#9F9493' : '#345995')};
+    background: ${({lightBg}) => (lightBg ? '#A0A1A1' : '#345995')};
     
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -67,7 +67,7 @@ export const Heading = styled.h1`
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color: ${({ lightHeading }) => (lightHeading ? '#9F9493' : '#084C61')};
+    color: ${({ lightHeading }) => (lightHeading ? '#A0A1A1' : '#084C61')};
 
     @media screen and (max-width: 480px) {
         font-size: 32px;
