@@ -22,7 +22,7 @@ export const homeObjTwo = {
     lightHeadingDesc: true,
     topLine: 'Career Highlight to date',
     headline: 'Launched the first regional office of Zen Educate',
-    description: 'Zen is a social enterprise improving the recruitment via technology. As a regional manager, I managed to build relationships with Trust CEOs, headteachers and business managers to develop a presence across all boroughs in Greater Manchester. Recruiting and leading a team of five, growing the Manchester business by over 300% each School year, and contributing to businesses strategy.',
+    description: 'Zen is a social enterprise improving the education recruitment system via technology. As a regional manager, I managed to build relationships with Trust CEOs, headteachers and business managers to develop a presence across all boroughs in Greater Manchester. Recruiting and leading a team of five, growing the Manchester business by over 300% each School year, and contributing to businesses strategy.',
     buttonLabel: 'Zen\'s website',
     imgStart: true,
     img: require('../../img/typewriter2.jpg'),
