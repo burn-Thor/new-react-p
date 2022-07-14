@@ -10,7 +10,7 @@ const Footer = () => {
 
 
                     <FooterLinksItems>
-                    <FooterLinkTitle>About Us</FooterLinkTitle>
+                    <FooterLinkTitle>Footer</FooterLinkTitle>
                             
                            
                             <FooterLink to='/Contact'>Contact</FooterLink>
@@ -27,7 +27,7 @@ const Footer = () => {
                 <FooterLinksWrapper>
                     
                     <FooterLinksItems>
-                    <FooterLinkTitle>About Us</FooterLinkTitle>
+                    <FooterLinkTitle>Footer</FooterLinkTitle>
                             
                            
                             <FooterLink to='/Contact'>Contact</FooterLink>
