@@ -6,6 +6,7 @@ import { Button } from '../ButtonElements';
 
 
 
+
 const LandingSection = () => {
   const [hover, setHover] = useState(false);
   const onHover = () => {
@@ -33,7 +34,9 @@ const LandingSection = () => {
               onMouseLeave={onHover}
               primary='true'
               dark='true'
-              >Send CV</Button>
+              href="/CV.pdf"
+              target="_blank"
+              >Open CV</Button>
             </FsBtnWrapper>
 
         </FullStackContent>

@@ -2,7 +2,7 @@ import React from 'react'
 import {Button} from '../ButtonElements'
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img} from './InfoElements'
 
-const InfoSection = ({lightBg, id, imgStart, lightHeading, topLine, headline, darkText, description,buttonLabel, img, alt, primary, dark, dark2}) => {
+const InfoSection = ({lightBg, id, imgStart, lightHeading, topLine, headline, darkText, description,buttonLabel, img, alt, primary, dark, dark2, url}) => {
   return (
     <>
     <InfoContainer lightBg={lightBg} id={id}>
@@ -23,6 +23,8 @@ const InfoSection = ({lightBg, id, imgStart, lightHeading, topLine, headline, da
                 primary={primary ? 1 :0}
                 dark={dark ? 1: 0}
                 dark2={dark2 ? 1 : 0}
+                href={url}
+                target="_blank"
                 
                 >{buttonLabel}</Button>
             </BtnWrap>

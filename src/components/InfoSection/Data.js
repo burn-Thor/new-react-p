@@ -29,7 +29,8 @@ export const homeObjTwo = {
     alt: 'oldschool typewriter',
     dark: true,
     primary: true,
-    darkText: true
+    darkText: true,
+    url: "https://www.zeneducate.com"
 }
 
 export const homeObjThree = {
@@ -46,7 +47,8 @@ export const homeObjThree = {
     alt: 'oldschool suitcases',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
+    
 }
 
 export const homeObjFour = {
@@ -63,5 +65,6 @@ export const homeObjFour = {
     alt: 'retro TV which has a look inside the kit',
     dark: true,
     primary: true,
-    darkText: true
+    darkText: true,
+    url: "https://www.github.com/burn-Thor"
 }
