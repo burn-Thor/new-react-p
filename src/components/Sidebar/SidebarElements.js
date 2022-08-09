@@ -63,10 +63,7 @@ export const SidebarLink = styled(LinkS)`
     color: #2F3061 ;
     cursor: pointer;
     
-    &:hover {
-        color: #43BCCD ;
-        transition: 0.2s ease-in-out;
-    }`
+    `
 
 export const SideBtnWrap = styled.div`
     display: flex;
@@ -85,11 +82,5 @@ export const SidebarRoute = styled(LinkRouter)`
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
-
-    &:hover {
-        transition: all 0.2s ease-in-out;
-        background: #43BCCD;
-        color: #2F3061;
-    }
     `
 
