@@ -12,7 +12,7 @@ const Footer = () => {
                             
                            
                             <FooterLink to='/Contact'>Contact</FooterLink>
-                            <FooterLink to='/Space Invaders'>Space Invaders</FooterLink>
+                            <FooterLink to={{pathname:'https://burn-thor.github.io/SpaceInvada/'}}target="_blank">Space Invaders</FooterLink>
                             <FooterLink to='/Snake'>Snake</FooterLink>
 
 
