@@ -58,7 +58,7 @@ export const homeObjFour = {
     lightHeadingDesc: true,
     topLine: 'Tech projects to date',
     headline: 'Several frontend and backend projects',
-    description: 'Space Invaders, Snake, a calculator, a to-do app, Instagram clone, 3x Movies APIs with CRUD functions using MySQL, MongoDB & Mongoose, a drumkit, a cats e-commerce platform, a dice game, etc',
+    description: 'MERN fitness tracker, Spotify clone, Space Invaders, Snake, a calculator, a to-do app, Instagram clone, 3x Movies APIs with CRUD functions using MySQL, MongoDB & Mongoose, a drumkit, a cats e-commerce platform, a dice game, etc',
     buttonLabel: 'My GitHub',
     imgStart: true,
     img: require('../../img/projects.jpg'),

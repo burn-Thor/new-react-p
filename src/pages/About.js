@@ -23,7 +23,7 @@ const About = () => {
     <br/>
     <p>Having 7 years of succesful commercial sales experience, including managing small sales teams, I bring a different perspective to development. Amongst other things, this part of my career has given me an acute awareness of what is actually important to the end user, proved my resilience and perserverance, as well as forced me to become incredibly self-disciplined. Prioritisation and working smartly are two crucial skills within sales, I have already noticed their importance in the journey to become the best possible developer.</p>
     <br/>
-    <p>Please take a look around this React portfolio, hopefully it gives you an idea of my capabilities as a developer.</p>
+    <p>Please take a look around this React portfolio, hopefully it gives you an idea of my capabilities as a junior developer.</p>
     </div>
     </Container>
   )
