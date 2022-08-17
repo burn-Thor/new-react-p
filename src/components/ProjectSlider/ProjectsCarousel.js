@@ -6,7 +6,8 @@ import FacetedSearch from './img/FacetedSearch.png'
 import DarkMode from './img/DarkMode.png'
 import { useState } from 'react'
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa';
-import { CarouselBox, Image } from './CarouselElements'
+import './Carousel.css'
+
 
 const ProjectScreenshots = [
   {
@@ -53,8 +54,8 @@ const ProjectsCarousel = ({projects}) => {
   return (
 
     <div className="carouselContainer">
-      <FaArrowAltCircleLeft className = "<Left" onClick={prevPic}/>
-      <FaArrowAltCircleRight className='>Right' onClick={nextPic}/>
+      
+      
       {ProjectScreenshots.map(({image, description}, index) => {
         return(
           <div className="carousel">
@@ -63,14 +64,22 @@ const ProjectsCarousel = ({projects}) => {
             {index===pic &&
             
             (
-            <CarouselBox>
-            <Image><img src={image} alt="a screenshot of one of my projects"/></Image>
+            <div>
+            <FaArrowAltCircleLeft className = "<Left" onClick={prevPic}/>
+            <div className="picPara">
+            <img className="cImage" src={image} alt="a screenshot of one of my projects"/>
             <p className="description">{description}</p>
-            </CarouselBox>
+            </div>
+            <FaArrowAltCircleRight className='>Right' onClick={nextPic}/>
+            </div>
+            
             )}
           </div>
+
           </div>
+          
         )
+      
       })}
 
     </div>
