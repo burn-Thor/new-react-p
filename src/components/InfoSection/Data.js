@@ -12,7 +12,8 @@ export const homeObjOne = {
     alt: 'Retro technology products with a purple light scheme',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
+    url: "https://www.github.com/burn-Thor/Spotify-Clone"
 }
 
 export const homeObjTwo = {
