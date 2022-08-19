@@ -1,10 +1,9 @@
 import React from 'react'
-import {GiThorFist} from 'react-icons/gi'
+// import {GiThorFist} from 'react-icons/gi'
 import {
     Nav, 
     NavbarContainer, 
     NavLogo, 
-    MobileIcon, 
     NavMenu, 
     NavItem,
     NavLink,
@@ -21,7 +20,7 @@ import Arcade from '../../pages/Arcade'
 
 
 
-const Navbar = ({toggle}) => {
+const Navbar = () => {
   return (
     <>
 
@@ -30,9 +29,9 @@ const Navbar = ({toggle}) => {
                 <NavLogo to= '/Home' element={<Home />} >
                     OT
                 </NavLogo>
-                <MobileIcon onClick={toggle}>
+                {/* <MobileIcon onClick={toggle}>
                     <GiThorFist />
-                </MobileIcon> 
+                </MobileIcon>  */}
                 <NavMenu>
                     <NavItem>
                         <NavLink to='/About'>About</NavLink>
@@ -50,7 +49,7 @@ const Navbar = ({toggle}) => {
             </NavbarContainer>
         </Nav>
         <Routes>
-            {/* <Route path ='/Home/*' element={<Home />} /> */}
+            <Route path ='/' element={<Home />} />
             <Route path ='/About' element={<About />} />
             <Route path ='/Projects' element={<Projects />} />
             <Route path ='/Contact' element={<Contact />} />

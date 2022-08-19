@@ -1,6 +1,6 @@
 import React from 'react'
 import {Routes, Route} from 'react-router-dom'
-import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute } from './SidebarElements'
+import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarItems, SideBtnWrap, SidebarRoute } from './SidebarElements'
 import About from '../../pages/About';
 import Home from '../../pages/Home';
 import Projects from '../../pages/Projects'
@@ -16,10 +16,10 @@ const Sidebar = ({isOpen, toggle}) => {
         </Icon>
     <SidebarWrapper>
         <SidebarMenu>
-            <SidebarLink to = "/About" onClick={toggle}>About</SidebarLink>
-            <SidebarLink to = "/Projects" onClick={toggle}>Projects</SidebarLink>
-            <SidebarLink to = "/Contact" onClick={toggle}>Contact</SidebarLink>
-            <SidebarLink to = "/Arcade" onClick={toggle}>Arcade</SidebarLink>
+            <SidebarItems to = "/About" onClick={toggle}>About</SidebarItems>
+            <SidebarItems to = "/Projects" onClick={toggle}>Projects</SidebarItems>
+            <SidebarItems to = "/Contact" onClick={toggle}>Contact</SidebarItems>
+            <SidebarItems to = "/Arcade" onClick={toggle}>Arcade</SidebarItems>
         </SidebarMenu>
 
         <SideBtnWrap>
