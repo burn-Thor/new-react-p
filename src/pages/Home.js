@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 import LandingSection from '../components/FullStackLanding'
 import InfoSection from '../components/InfoSection'
 import {homeObjOne, homeObjTwo, homeObjThree, homeObjFour} from '../components/InfoSection/Data'
-import ProjectsCarousel from '../components/ProjectSlider/ProjectsCarousel'
+// import ProjectsCarousel from '../components/ProjectSlider/ProjectsCarousel'
 
 
 const Home = () => {
