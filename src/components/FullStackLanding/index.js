@@ -29,7 +29,6 @@ const LandingSection = () => {
 
             <FsBtnWrapper>
             <Button
-              to='contact'
               onMouseEnter={onHover}
               onMouseLeave={onHover}
               primary='true'

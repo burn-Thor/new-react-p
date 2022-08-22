@@ -15,7 +15,7 @@ import About from '../../pages/About';
 import Home from '../../pages/Home';
 import Projects from '../../pages/Projects'
 import Contact from '../../pages/Contact'
-import Arcade from '../../pages/Arcade'
+
 
 
 
@@ -37,14 +37,11 @@ const Navbar = () => {
                         <NavLink to='/About'>About</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink to='/Projects'>Projects</NavLink>
-                    </NavItem>
-                    <NavItem>
                         <NavLink to='/Contact'>Contact</NavLink>
                     </NavItem>
                 </NavMenu>
                 <NavBtn>
-                    <NavBtnLink to="/Arcade">Arcade</NavBtnLink>
+                    <NavBtnLink to="/Projects">Projects</NavBtnLink>
                 </NavBtn>
             </NavbarContainer>
         </Nav>
@@ -53,7 +50,6 @@ const Navbar = () => {
             <Route path ='/About' element={<About />} />
             <Route path ='/Projects' element={<Projects />} />
             <Route path ='/Contact' element={<Contact />} />
-            <Route path ='/Arcade' element={<Arcade />} />
         </Routes>
    
     </>

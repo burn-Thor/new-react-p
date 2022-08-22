@@ -1,4 +1,4 @@
-export const homeObjOne = {
+export const homeObjTechStack = {
     id: 'techStack',
     lightBg: false,
     lightHeading: true,
@@ -16,7 +16,7 @@ export const homeObjOne = {
     url: "https://www.github.com/burn-Thor/Spotify-Clone"
 }
 
-export const homeObjTwo = {
+export const homeObjCareerHighlight = {
     id: 'careerHist',
     lightBg: true,
     lightHeading: false,
@@ -34,15 +34,16 @@ export const homeObjTwo = {
     url: "https://www.zeneducate.com"
 }
 
-export const homeObjThree = {
+export const homeObjNow = {
     id: 'currentSituation',
     lightBg: false,
     lightHeading: true,
     lightHeadingDesc: true,
     topLine: 'Current Situation',
-    headline: 'Finished a coding bootcamp, ready to work',
-    description: 'Having spent 7 years working in technology sales, and taking a short career break to travel South America, I am really excited by this new challenge. Up-skilling into software development gives me the perfect opportunity to dive deeper into the technology industry.',
+    headline: 'Part-time work whilst self-teaching development',
+    description: 'Having spent 7 years working in technology sales, and taking a short career break to travel South America, I am really excited by this new challenge. Up-skilling into software development gives me the perfect opportunity to dive deeper into the exciting world of technology.',
     // buttonLabel: 'Travel Photos',
+
     imgStart: false,
     img: require('../../img/retro_luggage.jpg'),
     alt: 'oldschool suitcases',
@@ -52,7 +53,7 @@ export const homeObjThree = {
     
 }
 
-export const homeObjFour = {
+export const homeObjGitHub= {
     id: 'techProjects',
     lightBg: true,
     lightHeading: false,
