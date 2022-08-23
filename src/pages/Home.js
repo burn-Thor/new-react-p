@@ -17,14 +17,13 @@ const Home = () => {
   return (
     <>
 
-    {/* <Sidebar isOpen={isOpen} toggle={toggle} /> */}
     <Navbar/>
 
     <LandingSection />
     
     <InfoSection {...homeObjGitHub}/>
     <InfoSection {...homeObjTechStack}/>
-    {/* <ProjectsCarousel/> */}
+   
     <InfoSection {...homeObjCareerHighlight}/>
     <InfoSection {...homeObjNow}/>
     
